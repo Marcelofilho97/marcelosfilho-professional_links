@@ -4,6 +4,8 @@
   --orange: #F22F1D;
   --purple: #140728;
   --white: #E1E1E1;
+
+  --bg-variant01: url('./assets/backgroundv01.png');
 }
 
 *{
@@ -12,8 +14,16 @@
   box-sizing: border-box;
 }
 
-/* !Adicionar background */
 body {
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
+
+  background: var(--bg-variant01) no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
