@@ -101,8 +101,33 @@
   }
 
 
-  @media screen and (max-width: 400px) {
+  /* * Media Queries - Tablet */
+
+  @media screen and (max-width: 900px) {
+    
   .link-item {
+      width: 460px;
+    }
+
+  .profile-container {
+      margin: 200px auto 80px;
+      transform: scale(1.25);
+  }
+
+  .Profile-header {
+    gap: 10px;
+  };
+  }
+
+  /* * Media Queries - Smartphone */
+
+  @media screen and (max-width: 460px) {
+    .link-item {
     width: 226px;
+  }
+
+    .profile-container {
+      margin: 100px auto 80px;
+      transform: scale(1.10);
   }
   }

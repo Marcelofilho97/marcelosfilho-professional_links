@@ -27,3 +27,18 @@ body {
   box-sizing: border-box;
 }
 
+  /* * Media Queries - Tablet */
+
+  @media screen and (max-width: 900px) {
+    body {
+      min-height: 85vh;
+    }
+  }
+
+  /* * Media Queries - Smartphone */
+
+  @media screen and (max-width: 460px) {
+    body {
+      min-height: 100vh;
+    }
+  }
