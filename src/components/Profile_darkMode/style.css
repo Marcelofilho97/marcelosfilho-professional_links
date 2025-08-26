@@ -1,3 +1,21 @@
+  .profile-container {
+    margin: 56px auto 160px;
+  }
+  
+  .Profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    max-width: 360px;
+    margin: 24px auto 24px;
+
+    gap: 8px;
+    color: black;
+  }
+
   .img-profile {
     width: 112px;
     height: 112px;
@@ -38,7 +56,7 @@
     justify-content: center;
     align-items: center;
 
-    background: var(--purple);
+    background: var(--orange);
     margin-bottom: 20px;
   }
 
@@ -91,6 +109,11 @@
       width: 460px;
     }
 
+  .profile-container {
+      margin: 200px auto 80px;
+      transform: scale(1.25);
+  }
+
   .Profile-header {
     gap: 10px;
   };
@@ -101,5 +124,10 @@
   @media screen and (max-width: 460px) {
     .link-item {
     width: 226px;
+  }
+
+    .profile-container {
+      margin: 100px auto 80px;
+      transform: scale(1.10);
   }
   }

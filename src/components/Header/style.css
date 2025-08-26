@@ -1,0 +1,36 @@
+  .Profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    max-width: 360px;
+    margin: 24px auto 24px;
+
+    gap: 8px;
+    color: black;
+  }
+
+  button {
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  color: var(--white);
+  cursor: pointer;
+  margin: 4px auto;
+}
+
+button image {
+  width: 64px;
+  height: 24px;
+}
+
+  /* * Media Queries - Tablet */
+
+  @media screen and (max-width: 900px) {
+  .Profile-header {
+    gap: 10px;
+  };
+  }
+

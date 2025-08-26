@@ -5,7 +5,8 @@
   --purple: #140728;
   --white: #E1E1E1;
 
-  --bg-variant01: url('./assets/backgroundv01.png');
+  --bg-variant01: linear-gradient(180deg,  rgba(242, 47, 29, 0.8) 45.67%, rgba(20, 7, 40, 1) 100%);
+  --bg-variant02: linear-gradient(180deg,  rgba(20, 7, 40, 1) 45.67%, rgba(242, 47, 29, 0.8) 100%);
 }
 
 *{
@@ -18,7 +19,7 @@ body {
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
 
-  background: var(--bg-variant01) no-repeat center;
+  background: var(--bg-variant01);
   background-size: cover;
   min-height: 100vh;
 

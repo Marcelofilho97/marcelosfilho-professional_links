@@ -1,11 +1,13 @@
 import './App.css'
+//import ButtonMode from './components/ButtonMode'
+import Header from './components/Header'
 import Profile from './components/Profile'
 
-function App() {
-
+function App() {  
   return (
     <div className="App">
-    <Profile />
+      <Header />
+      <Profile />
     </div>
   )
 }

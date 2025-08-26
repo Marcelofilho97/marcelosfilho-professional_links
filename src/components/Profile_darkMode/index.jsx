@@ -1,13 +1,19 @@
+import ImgProfile from "./assets/img-profile.png";
+import ImageSwitch from "./assets/Switch.png";
 import ImgGitHub from "./assets/logo-github.svg";
 import ImgInstagram from "./assets/logo-instagram.svg";
 import ImgLinkedIn from "./assets/logo-linkedin.svg";
 
 import "./style.css";
 
-export default function Profile() {
-
+export default function Profile_darkMode() {
   return (
-    <>
+    <div className="profile-container">
+      <header className="Profile-header">
+        <img className="img-profile" src={ImgProfile} alt="Foto de Perfil" />
+        <span>Marcelo Saldanha</span>
+        <img className="swicth-button" src={ImageSwitch} alt="Botão Dark Mode"/>
+      </header>
       <main>
         <ul className="links-list">
           <li className="link-item">
@@ -40,7 +46,7 @@ export default function Profile() {
       <footer>
         <span>“Coragem!” - Pde. Carlo Paris</span>
       </footer>
-    </>
+    </div>
   )
 }
 

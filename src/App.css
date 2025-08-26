@@ -1,0 +1,22 @@
+  .App {
+    margin: 56px auto 160px;
+  }
+
+   /* * Media Queries - Tablet */
+
+  @media screen and (max-width: 900px) {
+  .App {
+      margin: 200px auto 80px;
+      transform: scale(1.25);
+  }
+  }
+
+  /* * Media Queries - Smartphone */
+
+  @media screen and (max-width: 460px) {
+
+  .App {
+      margin: 100px auto 80px;
+      transform: scale(1.10);
+  }
+  }
