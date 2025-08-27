@@ -24,6 +24,7 @@
 button image {
   width: 64px;
   height: 24px;
+  transform: rotateY(0deg);
 }
 
   /* * Media Queries - Tablet */
