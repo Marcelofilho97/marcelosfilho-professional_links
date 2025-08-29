@@ -22,6 +22,7 @@ body {
   background: var(--bg-variant01);
   background-size: cover;
   min-height: 100vh;
+  
 
   margin: 0;
   padding: 0;

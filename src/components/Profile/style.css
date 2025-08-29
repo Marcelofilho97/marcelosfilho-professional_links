@@ -38,8 +38,11 @@
     justify-content: center;
     align-items: center;
 
-    background: var(--purple);
     margin-bottom: 20px;
+  }
+
+  #item {
+    background: var(--purple);
   }
 
   .link-item a {

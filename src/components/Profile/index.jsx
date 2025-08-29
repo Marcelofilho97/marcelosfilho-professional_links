@@ -10,16 +10,16 @@ export default function Profile() {
     <>
       <main>
         <ul className="links-list">
-          <li className="link-item">
+          <li className="link-item" id="item">
             <a href="#" target="_blank" rel="noopener noreferrer"> Instagram </a>
           </li>
-          <li className="link-item">
+          <li className="link-item" id="item">
             <a href="#" target="_blank" rel="noopener noreferrer"> GitHub </a>
           </li>
-          <li className="link-item">
+          <li className="link-item" id="item">
             <a href="#" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
           </li>
-          <li className="link-item">
+          <li className="link-item" id="item">
             <a href="#" target="_blank" rel="noopener noreferrer"> Fundador da YellowBag</a>
           </li>
         </ul>
