@@ -39,9 +39,6 @@
     align-items: center;
 
     margin-bottom: 20px;
-  }
-
-  #item {
     background: var(--purple);
   }
 

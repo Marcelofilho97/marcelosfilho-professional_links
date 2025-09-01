@@ -4,24 +4,31 @@ import ImgLinkedIn from "./assets/logo-linkedin.svg";
 
 import "./style.css";
 
-export default function Profile() {
+export default function Profile({mode}) {
+  const element = ["Instagram", "GitHub", "LinkedIn", "Fundador da YellowBag"];
+  const color = mode ? 'var(--orange)' : 'var(--purple)';
 
   return (
     <>
       <main>
-        <ul className="links-list">
-          <li className="link-item" id="item">
-            <a href="#" target="_blank" rel="noopener noreferrer"> Instagram </a>
-          </li>
-          <li className="link-item" id="item">
-            <a href="#" target="_blank" rel="noopener noreferrer"> GitHub </a>
-          </li>
-          <li className="link-item" id="item">
-            <a href="#" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
-          </li>
-          <li className="link-item" id="item">
-            <a href="#" target="_blank" rel="noopener noreferrer"> Fundador da YellowBag</a>
-          </li>
+        <ul
+        className="links-list"
+        >
+          {
+            element.map((item, index) => {
+              return (
+                <li
+                  key={index}
+                  className="link-item"
+                  style={{background: color}}
+                >
+                  <a href="#"  target="_blank" rel="noopener noreferrer">
+                    {item}
+                  </a>
+                </li>
+              )
+            })
+          }
         </ul>
         <ul className="social-media">
           <li>
@@ -43,5 +50,4 @@ export default function Profile() {
     </>
   )
 }
-
 
