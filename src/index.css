@@ -5,8 +5,8 @@
   --purple: #140728;
   --white: #E1E1E1;
 
-  --bg-variant01: linear-gradient(180deg,  rgba(242, 47, 29, 0.8) 45.67%, rgba(20, 7, 40, 1) 100%);
-  --bg-variant02: linear-gradient(180deg,  rgba(20, 7, 40, 1) 45.67%, rgba(242, 47, 29, 0.8) 100%);
+  --bg-variant01: linear-gradient(180deg,  rgba(242, 47, 29, 0.8) 46%, rgba(20, 7, 40, 1) 100%);
+  --bg-variant02: linear-gradient(180deg,  rgba(20, 7, 40, 1) 46%, rgba(242, 47, 29, 0.8) 100%);
 }
 
 *{
@@ -21,6 +21,7 @@ body {
 
   background: var(--bg-variant01);
   background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   
 

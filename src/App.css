@@ -1,22 +1,27 @@
   .App {
-    margin: 56px auto 160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
 
    /* * Media Queries - Tablet */
 
-  @media screen and (max-width: 900px) {
+  @media screen and (min-width: 900px) {
   .App {
-      margin: 200px auto 80px;
-      transform: scale(1.25);
+      transform: scale(1.1);
+      min-height: 100vh;
   }
   }
 
   /* * Media Queries - Smartphone */
 
-  @media screen and (max-width: 460px) {
+  @media screen and (min-width: 460px) {
 
   .App {
-      margin: 100px auto 80px;
-      transform: scale(1.10);
+      transform: scale(1);
+      max-height: 100vh;
   }
   }
