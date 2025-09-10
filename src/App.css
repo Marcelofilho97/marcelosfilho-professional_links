@@ -11,7 +11,7 @@
 
   @media screen and (min-width: 900px) {
   .App {
-      transform: scale(1.1);
+      transform: scale(1);
       min-height: 100vh;
   }
   }
@@ -22,6 +22,6 @@
 
   .App {
       transform: scale(1);
-      max-height: 100vh;
+      min-height: 100vh;
   }
   }

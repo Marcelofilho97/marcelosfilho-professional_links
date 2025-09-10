@@ -5,8 +5,8 @@
   --blue: #232287;
   --white: #E1E1E1;
 
-  --bg-variant01: linear-gradient(180deg, #ff6640 70%, #232287 100%);
-  --bg-variant02: linear-gradient(180deg, #232287 75%,#ff6640 100%);
+  --bg-variant01: linear-gradient(180deg, #ff6640 30%, #232287 100%);
+  --bg-variant02: linear-gradient(180deg, #232287 30%,#ff6640 100%);
 }
 
 *{
@@ -32,15 +32,15 @@ body {
 
   /* * Media Queries - Tablet */
 
-  @media screen and (max-width: 900px) {
+  @media screen and (min-width: 900px) {
     body {
-      min-height: 85vh;
+      min-height: 100vh;
     }
   }
 
   /* * Media Queries - Smartphone */
 
-  @media screen and (max-width: 460px) {
+  @media screen and (min-width: 460px) {
     body {
       min-height: 100vh;
     }
