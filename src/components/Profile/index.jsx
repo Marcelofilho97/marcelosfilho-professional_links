@@ -23,7 +23,7 @@ export default function Profile({mode}) {
       src: "https://www.instagram.com/p/DMIfDZusvP5/?igsh=b2hkbWY4ZXBpdm45"
     }
   ];
-  const color = mode ? 'var(--orange)' : 'var(--purple)';
+  const color = mode ? 'var(--orange)' : 'var(--blue)';
 
   return (
     <>

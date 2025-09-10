@@ -23,7 +23,7 @@ export default function Header () {
     <>
       <header className="Profile-header">
         <img className="img-profile" src={ImgProfile} alt="Foto de Perfil" />
-        <span>Marcelo Saldanha</span>
+        <span>@marcelosfilho</span>
         <button
           onClick={() => {
             currentMode ? currentMode = setMode(false) : currentMode = setMode(true);
@@ -36,12 +36,10 @@ export default function Header () {
               currentMode ? {
               filter: 'invert(1)',
               transform: 'scaleX(-1)',
-              //background: 'var(--bg-variant01)'
             }
             : {
               filter: 'invert(0)',
               transform: 'scaleX(1)',
-              //background: 'var(--bg-variant02)'
             } }
             alt="Botão Dark Mode"/>
         </button>
@@ -52,30 +50,3 @@ export default function Header () {
     </>
   )
 }
-
-/*
-  onClick= {
-        // setMode(true);
-        //(currentMode) => {
-        //currentMode = Mode.status === 0 ? setMode(darkmode) : setMode(lightmode);
-        // criação do elemento imagem;
-        
-        //const myImage = document.createElement('img');
-        //if (currentMode === false) {
-          //setMode(lightmode);
-          //const myImage = document.createElement('img');
-          //myImage.src = ImageSwitch;
-          //myImage.className = 'modeImage';
-          //myImage.style.setProperty('filter', 'invert(0)');
-          //console.log("funfou");
-        //} else {
-          //setMode(darkmode);
-          //myImage.style.setProperty('filter', 'invert(0)');
-        //}
-        /*
-        <img 
-        className="modeImage" 
-        src={ImageSwitch} 
-        alt="Botão Dark Mode"/>
-     }
-*/

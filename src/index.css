@@ -1,12 +1,12 @@
 :root {
   --font-family: "Roboto", sans-serif;
 
-  --orange: #F22F1D;
-  --purple: #140728;
+  --orange: #ff6640;
+  --blue: #232287;
   --white: #E1E1E1;
 
-  --bg-variant01: linear-gradient(180deg,  rgba(242, 47, 29, 0.8) 46%, rgba(20, 7, 40, 1) 100%);
-  --bg-variant02: linear-gradient(180deg,  rgba(20, 7, 40, 1) 46%, rgba(242, 47, 29, 0.8) 100%);
+  --bg-variant01: linear-gradient(180deg, #ff6640 70%, #232287 100%);
+  --bg-variant02: linear-gradient(180deg, #232287 75%,#ff6640 100%);
 }
 
 *{
